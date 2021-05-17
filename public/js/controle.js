@@ -84,7 +84,6 @@ if (direct != field_check.length){
     else {         //LOGICA DE CHECKFORM DOS DADOS DO USARIO  JSON PT2
         var msg_inv_check = document.getElementsByClassName("msg_inv_dado_usu") // 
         var check_info_usu = document.getElementsByClassName("in_user")
-        console.log(check_info_usu[contadora])
         for (var contadora = 0; contadora< check_info_usu.length; contadora++){
             if(check_info_usu[contadora].getAttribute("required") == "true"){
                 if(check_info_usu[contadora].value == 0){
